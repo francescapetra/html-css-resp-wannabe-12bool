@@ -1,12 +1,14 @@
-.container{
+body{
+  background-color: #34CECC;
+  }
+  .container{
   width: 100%;
   background-image: linear-gradient(to right , #CCFEFC, #CC9AFC);
 }
 img{
   filter: saturate(200%); -webkit-filter: saturate(300%);
   object-fit: cover;
-  width: 200px;
-  height: auto;
+  height: 200px;
 }
 .taglio-alto{
   margin: auto;
@@ -37,18 +39,20 @@ p{
   color: #043264;
   line-height: 1.2;
   padding: 0 5px;
+  margin-bottom: 10px;
 }
-img.personal{
+/* img.personal{
   width: 65%;
   padding: 20px 0 20px 0;
-}
+} */
 img.lente{
   padding-top: 40px;
 }
 hr{
-  margin: 20px 0;
   padding: 2px;
   background-color: violet;
+  width: 80%;
+  margin: auto;
 }
 img.lettera{
   padding-top: 5px;
@@ -56,8 +60,17 @@ img.lettera{
 img.grafico{
   background-color: #FC02FC;
   border-radius: 20px;
+  margin: 10px 0;
 }
 div[class*="col-" ]{
   height: 100%;
   margin-bottom: 25px;
+}
+/* resposive md tablet */
+@media screen and ( min-width: 768px) and (max-width: 991px){
+
+  .container{
+    background-color: pink;
+  }
+
 }
