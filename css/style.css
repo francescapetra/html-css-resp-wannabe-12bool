@@ -1,0 +1,41 @@
+.container{
+  height: 400px;
+  width: 100%;
+  background-image: linear-gradient(to right , #CCFEFC, #CC9AFC);
+}
+img{
+  filter: saturate(200%); -webkit-filter: saturate(300%);
+}
+.taglio-alto{
+  margin: auto;
+  text-align: center;
+}
+h1{
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 15px 0;
+  color: #640264;
+}
+h2.sotto-titolo{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 5px 0 10px 0;
+  color: #640264;
+}
+p{
+  font-size: 18px;
+  color: #043264;
+  line-height: 1.2;
+  padding: 0 5px;
+}
+img.mappa{
+  width:35%;
+  height: auto;
+}
+img.personal{
+  width:65%;
+  height: auto;
+  padding: 20px 0 20px 0;
+}
