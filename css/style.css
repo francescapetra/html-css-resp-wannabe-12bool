@@ -4,6 +4,9 @@
 }
 img{
   filter: saturate(200%); -webkit-filter: saturate(300%);
+  object-fit: cover;
+  width: 200px;
+  height: auto;
 }
 .taglio-alto{
   margin: auto;
@@ -35,17 +38,11 @@ p{
   line-height: 1.2;
   padding: 0 5px;
 }
-img.mappa{
-  width:35%;
-  height: auto;
-}
 img.personal{
- width: 65%;
+  width: 65%;
   padding: 20px 0 20px 0;
 }
 img.lente{
-  width:50%;
-  height: auto;
   padding-top: 40px;
 }
 hr{
@@ -54,12 +51,9 @@ hr{
   background-color: violet;
 }
 img.lettera{
-  width:48%;
-  height: auto;
   padding-top: 5px;
 }
 img.grafico{
-  width:15%;
   background-color: #FC02FC;
   border-radius: 20px;
 }
