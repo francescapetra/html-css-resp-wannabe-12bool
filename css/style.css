@@ -1,5 +1,4 @@
 .container{
-  height: 400px;
   width: 100%;
   background-image: linear-gradient(to right , #CCFEFC, #CC9AFC);
 }
@@ -18,11 +17,17 @@ h1{
   color: #640264;
 }
 h2.sotto-titolo{
-  font-size: 24px;
+  font-size: 26px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: bolder;
   padding: 5px 0 10px 0;
   color: #640264;
+}
+h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #043264;
+  padding: 10px 0 10px 0;
 }
 p{
   font-size: 18px;
@@ -35,7 +40,30 @@ img.mappa{
   height: auto;
 }
 img.personal{
-  width:65%;
-  height: auto;
+ width: 65%;
   padding: 20px 0 20px 0;
+}
+img.lente{
+  width:50%;
+  height: auto;
+  padding-top: 40px;
+}
+hr{
+  margin: 20px 0;
+  padding: 2px;
+  background-color: violet;
+}
+img.lettera{
+  width:48%;
+  height: auto;
+  padding-top: 5px;
+}
+img.grafico{
+  width:15%;
+  background-color: #FC02FC;
+  border-radius: 20px;
+}
+div[class*="col-" ]{
+  height: 100%;
+  margin-bottom: 25px;
 }
