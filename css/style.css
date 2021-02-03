@@ -88,4 +88,9 @@ div[class*="col-" ]{
     background-color: #64669C;
     width: 80%;
   }
+  img.personal{
+    filter: saturate(200%); -webkit-filter: saturate(300%);
+    object-fit: cover;
+    height: 170px;
+  }
 }
